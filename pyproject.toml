@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "BetterDotMap"
+version = "0.1.0"
+description = "A slightly better DotMap"
+authors = ["Morten <17274237+mortenover@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+dotmap = "^1.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
